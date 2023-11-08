@@ -1,0 +1,104 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+background: #BEFFF7;
+display: flex;
+justify-content: center;
+height:100vh;
+align-items: center;
+}
+
+.main{
+width: 500vh;
+border: 2px solid #7C81AD;
+padding: 20px;
+background: #6499E9;
+display:flex;
+flex-flow:column wrap;
+justify-content: center;
+border-radius: 20px;
+}
+
+.main:hover{
+border-color:#2E4374;
+transition: 0.5s;
+}
+
+
+#user{
+    align-self: flex-start;
+    padding: 0px 5px;
+    margin:0;
+    color:#141E46;
+    border:2px dotted #141E46;
+    border-radius: 10px;
+    font-size:1rem;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+h1{
+text-align: center;
+margin-bottom: 10px;
+padding: 20px;
+color: #141E46;
+}
+
+form{
+    align-self: center;
+}
+
+#togglebtn{
+background-color:#9EDDFF;
+max-width:max-content;
+border-radius: 10px;
+font-weight: bolder;
+border-color:#2E4374;
+color:#141E46;
+text-align: center;
+margin-bottom: 20px;
+}
+
+#togglebtn:hover{
+cursor:pointer;
+}
+
+.message{
+color:paleturquoise;
+font-size:1rem;
+margin-top:0;
+margin-bottom:20px;
+height: 20px;
+text-align: center;
+align-self: center;
+}
+
+
+
+a {
+background: #141E46;
+padding: 10px 15px;
+color: #fff;
+border-radius: 5px;
+margin-right: 10px;
+margin-top:40px;
+text-decoration:none;
+align-self: end;
+border: none;
+}
+
+a:hover{
+opacity: .9;
+background: #9EDDFF;
+color:#141E46;
+transition-duration: 1s;
+cursor:pointer;
+font-weight: bolder;
+}
+table{
+    text-align: center;
+    align-self: flex-start;
+    flex-basis: 2;
+}
